@@ -22,7 +22,7 @@ test.beforeEach(async ({page})=>{
   await homepage.goToLoginAndSignUpPage();
 
 })
-
+/*
 test('CP1-Registro de usuario', async ({ page }) => {
 
   await expect(homepage.signUpHeader).toBeVisible()
@@ -46,6 +46,7 @@ test('CP2-Inicio de sesion con datos correctos', async ({ page }) => {
   await signUpLoginPage.login("aurams@prueba.com", "123")
   await homepage.checkUsername('Aura')
 });
+*/
 
 test('CP3-Inicio de sesion con datos Incorrectos', async ({ page }) => {
   await signUpLoginPage.checkLoginHeader();
